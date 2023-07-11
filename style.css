@@ -1,0 +1,18 @@
+body {
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+}
+
+.page-title,
+.recipe-list {
+    text-align: left;
+}
+
+h1.page-title {
+    color: rgb(87, 47, 14);
+}
+
+.list-block, 
+.list li a {
+    background-color: whitesmoke;
+    color: rgb(138, 109, 47);
+}
