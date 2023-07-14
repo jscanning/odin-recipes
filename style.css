@@ -1,23 +1,35 @@
-* {
-    border: 2px solid red;
-}
-
-
 body {
+    background-color: burlywood;
     font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
 }
 
-.page-title,
-.recipe-list {
-    text-align: left;
-}
-
 h1.page-title {
-    color: rgb(87, 47, 14);
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    background-color: cornsilk;
+    color: rgb(32, 21, 10);
+    padding: 10px;
 }
 
-.list-block, 
-.list li a {
-    background-color: whitesmoke;
-    color: rgb(138, 109, 47);
+ul {
+    width:fit-content;
+    display: block;
+    margin: auto;
+}
+
+li {
+    width: 300px;
+    background-color: blanchedalmond;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.recipe-card {
+    padding: 20px;
+}
+
+.recipe-card h2 {
+    margin: 5px;
 }
